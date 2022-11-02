@@ -1,2 +1,2 @@
-# bth_design_h22
+# portfolio
 Repository for my portfolio created for the Design course at BTH. 
