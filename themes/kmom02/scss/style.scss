@@ -1,0 +1,39 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'header';
+@import 'footer';
+@import 'typography';
+@import 'blockquote';
+@import 'code';
+@import 'media';
+@import 'mobile-menu';
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    margin: 10px auto;
+    width: 80%;
+}
+
+.header, .footer {
+    flex: 0 0 auto;
+}
