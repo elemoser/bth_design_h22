@@ -1,0 +1,40 @@
+@mixin box {
+    border: 1px solid red;
+}
+
+@function multiply($a, $b) {
+    $res: a * b;
+    @return $res;
+}
+
+$base-line-height: 1.4;
+$base-font-size: 1rem;
+
+.test {
+    p {
+        margin: multiply($base-line-height, $base-font-size) 0;
+        padding: 0;
+    }
+    
+}
+
+.old-fashioned {
+    background-color: lightgrey;
+    color: black;
+    line-height: 1.6;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.modern {
+    @include box;
+    color: #333;
+    line-height: $base-line-height;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.worst-ever {
+    line-height: 1;
+    letter-spacing: -2px;
+    color: #aaa;
+}

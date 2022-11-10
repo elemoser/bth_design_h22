@@ -6422,6 +6422,32 @@ template {
   display: none;
 }
 
+.test p {
+  margin: 1.82rem 0;
+  padding: 0;
+}
+
+.old-fashioned {
+  background-color: lightgrey;
+  color: black;
+  line-height: 1.6;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.modern {
+  border: 1px solid red;
+  color: #333;
+  line-height: 1.4;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.worst-ever {
+  line-height: 1;
+  letter-spacing: -2px;
+  color: #aaa;
+}
+
 /* Header */
 .header, .site-header {
   display: flex;
