@@ -7,5 +7,5 @@ Social:
       icon: fab fa-github
     - title: Link till MDN sida.
       url: https://developer.mozilla.org/en-US/
-      icon: css3
+      icon: fab fa-css3
 ---
