@@ -6,6 +6,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import '../../node_modules/normalize.css/normalize';
 @import 'variables';
+@import 'mixins';
+@import 'functions';
 @import 'test';
 @import 'header';
 @import 'footer';
@@ -37,8 +39,7 @@ body {
 }
 
 .main {
-    margin: 10px auto;
-    width: 80%;
+    @include container-center;
 }
 
 .header, .footer {

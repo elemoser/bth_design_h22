@@ -1,0 +1,11 @@
+@mixin image-center {
+    display: block;
+    margin: 20px auto;
+    padding: 1rem;
+    border: 1px solid $font-alternative-color;
+}
+
+@mixin container-center {
+    margin: 0 auto;
+    width: 80%;
+}

@@ -1,9 +1,9 @@
-$font-color: #000;
-$font-alternative-color: #fff;
-$accent-color: #ee6c4d;
-$background-color: #3d5a80;
-$background-alternative-color: #e0fbfc;
+$font-color: #080708;
+$font-alternative-color: #190933;
+$accent-color: #665687;
+$background-color: #fff;
+$background-alternative-color: #a7adc6;
 
-$line-height: 1.4;
-$font-size: 1.1em;
-$magic-number: $font-size * $line-height;
+$base-line-height: 1.4;
+$base-font-size: 1.1rem;
+$magic-number: multiply($base-font-size, $base-line-height);

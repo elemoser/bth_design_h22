@@ -6423,7 +6423,7 @@ template {
 }
 
 .test p {
-  margin: 1.4rem 0;
+  margin: 1.54rem 0;
   padding: 0;
 }
 
@@ -6482,7 +6482,7 @@ template {
   }
 }
 .title * {
-  color: #111;
+  color: #190933;
 }
 
 .title p {
@@ -6498,15 +6498,6 @@ template {
   text-decoration: none;
 }
 
-.nav li:first-child a {
-  color: orangered;
-}
-
-.nav li:first-child a:hover {
-  color: orange;
-  border-bottom: 1px solid orange;
-}
-
 .nav li:last-child a {
   color: blue;
 }
@@ -6517,24 +6508,30 @@ template {
 }
 
 .nav a:hover {
-  border-bottom: 1px solid black;
+  color: #665687;
+  border-bottom: 1px solid #665687;
 }
 
 /* Footer */
+.footer,
+.footer * {
+  background-color: #a7adc6;
+}
+
 .footer {
-  margin: 20px auto;
+  margin: 0 auto;
   width: 80%;
+  margin-top: 20px;
   height: 40vh;
   padding: 10px;
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid #222;
-  background-color: #444;
-  color: white;
+  border-top: 1px solid #665687;
+  color: #190933;
 }
 
 .footer a {
-  color: white;
+  color: #190933;
   text-decoration: none;
 }
 
@@ -6545,12 +6542,15 @@ template {
 /* Typografy */
 * {
   font-family: "Source Serif Pro", serif;
+  background-color: #fff;
 }
 
 body {
   font-family: sans-serif;
   line-height: 1.4;
-  color: #444;
+  font-size: 1.1rem;
+  margin: 1.54rem 0;
+  color: #080708;
 }
 
 p, td, th, li, dd {
@@ -6563,6 +6563,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.6em;
   font-weight: bold;
   font-family: "Source Sans Pro", sans-serif;
+  color: #190933;
 }
 
 ol, ul {
@@ -6611,11 +6612,11 @@ img {
 }
 
 .img-profile {
-  max-width: 30%;
   display: block;
   margin: 20px auto;
-  padding: 1em;
-  border: 1px solid grey;
+  padding: 1rem;
+  border: 1px solid #190933;
+  max-width: 30%;
 }
 
 .slide {
@@ -6691,7 +6692,7 @@ body {
 }
 
 .main {
-  margin: 10px auto;
+  margin: 0 auto;
   width: 80%;
 }
 

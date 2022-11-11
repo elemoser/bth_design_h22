@@ -3,9 +3,6 @@ img {
 }
 
 .img-profile {
+    @include image-center;
     max-width: 30%;
-    display: block;
-    margin: 20px auto;
-    padding: 1em;
-    border: 1px solid grey;
 }
