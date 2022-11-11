@@ -6518,6 +6518,11 @@ template {
   background-color: #a7adc6;
 }
 
+.footer div {
+  margin: 0;
+  padding: 0.4rem;
+}
+
 .footer {
   margin: 0 auto;
   width: 80%;
@@ -6525,6 +6530,7 @@ template {
   height: 40vh;
   padding: 10px;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   border-top: 1px solid #665687;
   color: #190933;
@@ -6539,6 +6545,12 @@ template {
   font-size: 2rem;
 }
 
+@media (max-width: 940px) {
+  .footer {
+    flex-direction: column;
+    justify-content: start;
+  }
+}
 /* Typografy */
 * {
   font-family: "Source Serif Pro", serif;
