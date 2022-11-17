@@ -6778,6 +6778,15 @@ img {
   margin-top: 1.54rem;
 }
 
+@media only screen and (max-width: 940px) {
+  /* For mobile phones: */
+  .tech-2cols-layout {
+    flex-direction: column;
+  }
+  .tech-2cols-layout .sidebar {
+    display: none !important;
+  }
+}
 .landingpage {
   display: grid;
   gap: 1em 1em;

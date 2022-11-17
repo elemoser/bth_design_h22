@@ -39,3 +39,14 @@
         margin-top: $magic-number;
     }
 }
+
+@media only screen and (max-width: 940px) {
+    /* For mobile phones: */
+    .tech-2cols-layout {
+        flex-direction: column;
+
+        .sidebar {
+            display: none !important;
+        }
+    }
+}
