@@ -6689,12 +6689,6 @@ img {
   grid-template-rows: repeat(5, 1fr);
 }
 
-.tech-container a {
-  text-decoration: none;
-  display: block;
-  height: 100%;
-}
-
 .tech-container h1 {
   grid-column: 1/4;
   grid-row: 1/2;
@@ -6703,10 +6697,27 @@ img {
 .tech-container h1,
 .tech-box {
   text-align: center;
+  max-height: 150px;
 }
 
-.tech-box {
-  border: 1px solid black;
+.tech-box a {
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  border: 1px solid #665687;
+  border-radius: 20px;
+}
+.tech-box a h2 {
+  background-color: inherit;
+  position: relative;
+  top: 25%;
+}
+
+.tech-box a:hover {
+  background-color: #665687;
+}
+.tech-box a:hover h2 {
+  color: #fff;
 }
 
 .css-box {
