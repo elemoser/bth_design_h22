@@ -6682,6 +6682,116 @@ img {
     cursor: pointer;
   }
 }
+.tech-container {
+  display: grid;
+  gap: 1em 1em;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.tech-container a {
+  text-decoration: none;
+  display: block;
+  height: 100%;
+}
+
+.tech-container h1 {
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+.tech-container h1,
+.tech-box {
+  text-align: center;
+}
+
+.tech-box {
+  border: 1px solid black;
+}
+
+.css-box {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.html-box {
+  grid-column: 2/span 2;
+  grid-row: 2/3;
+}
+
+.js-box {
+  grid-column: 1/span 2;
+  grid-row: 3/4;
+}
+
+.php-box {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+.python-box {
+  grid-column: 1/span 3;
+  grid-row: 4/5;
+}
+
+.git-box {
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+
+.sqlite-box {
+  grid-column: 2/span 2;
+  grid-row: 5/6;
+}
+
+.tech-2cols-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1em;
+}
+.tech-2cols-layout .sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 20%;
+  text-align: end;
+}
+.tech-2cols-layout .sidebar a {
+  display: block;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-variant: all-small-caps;
+  letter-spacing: 1px;
+  padding-right: 1em;
+}
+.tech-2cols-layout .sidebar a:hover {
+  color: #665687;
+}
+.tech-2cols-layout .tech-article {
+  font-size: 1.1rem;
+  line-height: 1.4;
+  padding: 0 0.2em;
+}
+
+.tech-article pre {
+  margin-top: 1.54rem;
+}
+
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.kmom-box.project {
+  grid-column: span 3;
+}
+
 * {
   box-sizing: border-box;
   border: 0 none;

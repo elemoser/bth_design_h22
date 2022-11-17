@@ -1,0 +1,41 @@
+// Style for technologies article
+
+.tech-2cols-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1em;
+
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-width: 20%;
+        text-align: end;
+    }
+
+    .sidebar a {
+        display: block;
+        text-decoration: none;
+        font-size: 1.4rem;
+        font-variant: all-small-caps;
+        letter-spacing: 1px;
+        padding-right: 1em;
+    }
+
+    .sidebar a:hover {
+        color: $accent-color;
+    }
+
+    .tech-article {
+        font-size: $base-font-size;
+        line-height: $base-line-height;
+        padding: 0 0.2em;
+    }
+}
+
+.tech-article {
+    pre {
+        margin-top: $magic-number;
+    }
+}
