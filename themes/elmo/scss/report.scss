@@ -1,11 +1,21 @@
 .landingpage {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 1em 1em;
 }
 
 .landingpage h1 {
     grid-column: span 3;
     justify-self: center;
+}
+
+.kmom-box {
+    max-height: 150px;
+    text-align: center;
+
+    h2 {
+        margin: 0;
+    }
 }
 
 .kmom-box.project {
