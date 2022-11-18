@@ -6,3 +6,10 @@ img {
     @include image-center;
     max-width: 30%;
 }
+
+
+@media (max-width: 428px) {
+    .img-profile {
+        max-width: 100%;
+    }
+}

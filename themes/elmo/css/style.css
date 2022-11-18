@@ -6632,6 +6632,11 @@ img {
   max-width: 30%;
 }
 
+@media (max-width: 428px) {
+  .img-profile {
+    max-width: 100%;
+  }
+}
 .slide {
   overflow-y: hidden !important;
   transition: height 0.5s ease-in !important;
