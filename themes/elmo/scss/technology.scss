@@ -9,12 +9,14 @@
     .sidebar {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: start;
         min-width: 20%;
         text-align: end;
     }
 
     .sidebar a {
+        margin: 0;
+        margin-bottom: 1em;
         display: block;
         text-decoration: none;
         font-size: 1.4rem;
