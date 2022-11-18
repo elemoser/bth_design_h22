@@ -21,3 +21,19 @@
 .kmom-box.project {
     grid-column: span 3;
 }
+
+@media only screen and (max-width: 425px) {
+    /* For mobile phones: */
+    .landingpage {
+        grid-template-columns: 1fr 1fr;
+
+        h1 {
+            grid-column: span 2;
+        }
+    }
+
+    .kmom-box.project {
+        grid-column: span 2;
+    }
+
+}
