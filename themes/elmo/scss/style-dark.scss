@@ -1,0 +1,26 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import 'mixins';
+@import 'functions';
+@import 'test';
+@import 'header';
+@import 'footer';
+@import 'typography';
+@import 'blockquote';
+@import 'code';
+@import 'media';
+@import 'mobile-menu';
+@import 'technologies';
+@import 'technology';
+@import 'report';
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Source+Serif+Pro&display=swap');
+
+.main {
+    background-color: yellow;
+}
