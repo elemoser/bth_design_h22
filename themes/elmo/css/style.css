@@ -2,7 +2,7 @@
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Source+Serif+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sansita&family=Source+Serif+Pro&display=swap");
 .fa,
 .fas,
 .far,
@@ -6422,6 +6422,34 @@ template {
   display: none;
 }
 
+* {
+  box-sizing: border-box;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  display: none !important;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  padding: 0 6em;
+}
+
+.header, .footer {
+  flex: 0 0 auto;
+}
+
 .test p {
   margin: 1.54rem 0;
   padding: 0;
@@ -6455,8 +6483,7 @@ template {
 }
 
 .header {
-  margin: 0 auto;
-  width: 80%;
+  padding: 0 6em;
   display: flex;
   flex-direction: column-reverse;
 }
@@ -6469,6 +6496,19 @@ template {
 .logo img {
   max-height: 100%;
   position: relative;
+  filter: none;
+}
+
+.title * {
+  color: #942630;
+}
+
+.title p {
+  font-style: italic;
+}
+
+.title a {
+  text-decoration: none;
 }
 
 @media (max-width: 767px) {
@@ -6482,66 +6522,48 @@ template {
     max-width: 30%;
   }
 }
-.title * {
-  color: #190933;
-}
-
-.title p {
-  font-style: italic;
-}
-
-.title a {
-  text-decoration: none;
-}
-
 /* Navigation */
-.nav a {
+.nav li a {
   text-decoration: none;
+  color: #010101;
+  padding: 0.6em;
 }
 
 .nav li:last-child a {
-  color: blue;
+  color: #044714;
 }
 
 .nav li:last-child a:hover {
-  color: cornflowerblue;
-  border-bottom: 1px solid cornflowerblue;
+  color: #010101;
 }
 
 .nav a:hover {
-  color: #665687;
-  border-bottom: 1px solid #665687;
+  background-color: #eddce0;
+  border-radius: 50% 50%;
 }
 
 /* Footer */
 .footer,
 .footer * {
-  background-color: #a7adc6;
-}
-
-.footer div {
-  margin: 0;
-  padding: 0.4rem;
+  background-color: #eddce0;
+  color: #942630;
 }
 
 .footer {
-  margin: 0 auto;
-  width: 80%;
-  margin-top: 20px;
+  margin-top: 2em;
   height: 40vh;
-  padding: 10px;
+  padding: 1.75em 6em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-top: 1px solid #665687;
-  color: #190933;
 }
-
+.footer div {
+  margin: 0;
+  padding: 0;
+}
 .footer a {
-  color: #190933;
   text-decoration: none;
 }
-
 .footer .social {
   font-size: 2rem;
 }
@@ -6555,15 +6577,16 @@ template {
 /* Typografy */
 * {
   font-family: "Source Serif Pro", serif;
-  background-color: #fff;
+  background-color: #fefefe;
 }
 
 body {
   font-family: sans-serif;
   line-height: 1.4;
   font-size: 1.1rem;
-  margin: 1.54rem 0;
-  color: #080708;
+  margin: multiply(1.1rem, 1.4) 0;
+  background-color: #fefefe;
+  color: #010101;
 }
 
 p, td, th, li, dd {
@@ -6575,12 +6598,20 @@ p, td, th, li, dd {
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.6em;
   font-weight: bold;
-  font-family: "Source Sans Pro", sans-serif;
-  color: #190933;
+  font-family: "Sansita", sans-serif;
+  color: #044714;
+}
+
+h2 {
+  margin-top: 0.6em;
 }
 
 ol, ul {
   padding-left: 1.5em;
+}
+
+.nav li a {
+  font-family: "Sansita", sans-serif;
 }
 
 /* Blockquote */
@@ -6588,7 +6619,7 @@ blockquote {
   font-style: italic;
   margin-left: 1em;
   padding-left: 1em;
-  border-left: 0.5em solid #f5f5f5;
+  border-left: 0.5em solid #DBE8D8;
 }
 
 /* Code */
@@ -6620,6 +6651,14 @@ pre code {
   line-height: 1.4;
 }
 
+.main a {
+  color: #044714;
+  text-decoration: none;
+}
+.main a:hover {
+  border-bottom: 1px solid #044714;
+}
+
 img {
   max-width: 100%;
 }
@@ -6628,8 +6667,9 @@ img {
   display: block;
   margin: 20px auto;
   padding: 1rem;
-  border: 1px solid #190933;
+  border: 1px solid #DBE8D8;
   max-width: 30%;
+  filter: none;
 }
 
 @media (max-width: 428px) {
@@ -6654,7 +6694,7 @@ img {
 }
 
 .nav a, .nav-toggle {
-  color: #333;
+  color: #942630;
 }
 
 .nav-toggle {
@@ -6711,20 +6751,20 @@ img {
   text-decoration: none;
   display: block;
   height: 100%;
-  border: 1px solid #665687;
   border-radius: 20px;
+  background: #044714;
 }
 .tech-box a h2 {
   background-color: inherit;
+  color: #fefefe;
   position: relative;
   top: 25%;
+  letter-spacing: 2px;
 }
 
 .tech-box a:hover {
-  background-color: #665687;
-}
-.tech-box a:hover h2 {
-  color: #fff;
+  background: #942630;
+  border-bottom: none;
 }
 
 .css-box {
@@ -6786,7 +6826,7 @@ img {
   padding-right: 1em;
 }
 .tech-2cols-layout .sidebar a:hover {
-  color: #665687;
+  color: #942630;
 }
 .tech-2cols-layout .tech-article {
   font-size: 1.1rem;
@@ -6795,7 +6835,7 @@ img {
 }
 
 .tech-article pre {
-  margin-top: 1.54rem;
+  margin-top: multiply(1.1rem, 1.4);
 }
 
 @media only screen and (max-width: 940px) {
@@ -6841,32 +6881,4 @@ img {
   .kmom-box.project {
     grid-column: span 2;
   }
-}
-* {
-  box-sizing: border-box;
-  border: 0 none;
-  margin: 0;
-  padding: 0;
-}
-
-.hidden {
-  display: none !important;
-}
-
-html, body {
-  height: 100%;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-}
-
-.main {
-  margin: 0 auto;
-  width: 80%;
-}
-
-.header, .footer {
-  flex: 0 0 auto;
 }

@@ -8,6 +8,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'variables';
 @import 'mixins';
 @import 'functions';
+@import 'general';
 @import 'test';
 @import 'header';
 @import 'footer';
@@ -19,32 +20,4 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'technologies';
 @import 'technology';
 @import 'report';
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Source+Serif+Pro&display=swap');
-
-* {
-    box-sizing: border-box;
-    border: 0 none;
-    margin: 0;
-    padding: 0;
-}
-
-.hidden {
-    display: none !important;
-}
-
-html, body {
-    height: 100%;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-}
-
-.main {
-    @include container-center;
-}
-
-.header, .footer {
-    flex: 0 0 auto;
-}
+@import url('https://fonts.googleapis.com/css2?family=Sansita&family=Source+Serif+Pro&display=swap');

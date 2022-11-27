@@ -18,6 +18,19 @@
 .logo img {
     max-height: 100%;
     position: relative;
+    filter: $img-filter;
+}
+
+.title * {
+    color: $accent-alt-color;
+}
+
+.title p {
+    font-style: italic;
+}
+
+.title a {
+    text-decoration: none;
 }
 
 @media (max-width: 767px) {
@@ -32,33 +45,22 @@
     }
 }
 
-.title * {
-    color: $font-alternative-color;
-}
-
-.title p {
-    font-style: italic;
-}
-
-.title a {
-    text-decoration: none;
-}
-
 /* Navigation */
-.nav a {
+.nav li a {
     text-decoration: none;
+    color: $font-color;
+    padding: 0.6em;
 }
 
 .nav li:last-child a {
-    color: blue;
+    color: $font-alternative-color;
 }
 
 .nav li:last-child a:hover {
-    color: cornflowerblue;
-    border-bottom: 1px solid cornflowerblue;
+    color: $font-color;
 }
 
 .nav a:hover {
-    color: $accent-color;
-    border-bottom: 1px solid $accent-color;
+    background-color: $background-alternative-color;
+    border-radius: 50% 50%;
 }

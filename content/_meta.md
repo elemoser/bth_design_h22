@@ -1,5 +1,5 @@
 ---
-Logo: image/sunflower.jpeg
+Logo: image/radish.png
 Tagline: Portfolio
 Social:
     - title: Link till sidans github repo.
