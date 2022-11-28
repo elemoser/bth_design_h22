@@ -6450,6 +6450,22 @@ body {
   flex: 0 0 auto;
 }
 
+.table, th, td {
+  border: 1px solid #DBE8D8;
+}
+
+.table {
+  margin: 1em 0;
+  padding: 0.4em;
+  border-collapse: collapse;
+}
+.table th, .table td {
+  padding: 0.4em;
+}
+.table th {
+  color: #942630;
+}
+
 .test p {
   margin: 1.54rem 0;
   padding: 0;
@@ -6597,9 +6613,12 @@ p, td, th, li, dd {
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.6em;
+  color: #044714;
+}
+
+h1, h2, h3, h4, h5, h6, th {
   font-weight: bold;
   font-family: "Sansita", sans-serif;
-  color: #044714;
 }
 
 h2 {
@@ -6607,6 +6626,7 @@ h2 {
 }
 
 ol, ul {
+  margin: 1em 0;
   padding-left: 1.5em;
 }
 
@@ -6617,6 +6637,8 @@ ol, ul {
 /* Blockquote */
 blockquote {
   font-style: italic;
+  margin-top: 1em;
+  margin-bottom: 1em;
   margin-left: 1em;
   padding-left: 1em;
   border-left: 0.5em solid #DBE8D8;
@@ -6670,6 +6692,14 @@ img {
   border: 1px solid #DBE8D8;
   max-width: 30%;
   filter: none;
+}
+
+.img-website {
+  display: block;
+  margin: 20px auto;
+  padding: 1rem;
+  border: 1px solid #DBE8D8;
+  max-width: 90%;
 }
 
 @media (max-width: 428px) {
@@ -6881,4 +6911,14 @@ img {
   .kmom-box.project {
     grid-column: span 2;
   }
+}
+.color-palette {
+  margin: 0.8em auto;
+  border-spacing: 4px;
+  border-collapse: separate;
+}
+
+.color-box {
+  height: 50px;
+  width: 50px;
 }

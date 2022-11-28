@@ -19,6 +19,11 @@ img {
     filter: $img-filter;
 }
 
+.img-website {
+    @include image-center;
+    max-width: 90%;
+}
+
 
 @media (max-width: 428px) {
     .img-profile {

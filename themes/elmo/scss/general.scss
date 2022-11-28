@@ -25,3 +25,19 @@ body {
 .header, .footer {
     flex: 0 0 auto;
 }
+
+.table, th, td {
+    border: 1px solid $border-color;
+}
+
+.table {
+    margin: 1em 0;
+    padding: 0.4em;
+    border-collapse: collapse;
+    th, td {
+        padding: 0.4em;
+    }
+    th {
+        color: $accent-color;
+    }
+}
