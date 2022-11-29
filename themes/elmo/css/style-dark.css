@@ -6443,7 +6443,7 @@ body {
 }
 
 .main {
-  padding: 0 6em;
+  padding: 0 5%;
 }
 
 .header, .footer {
@@ -6499,7 +6499,7 @@ body {
 }
 
 .header {
-  padding: 0 6em;
+  padding: 0 5%;
   display: flex;
   flex-direction: column-reverse;
 }
@@ -6568,7 +6568,7 @@ body {
 .footer {
   margin-top: 2em;
   height: 40vh;
-  padding: 1.75em 6em;
+  padding: 1.75em 5%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -6584,7 +6584,7 @@ body {
   font-size: 2rem;
 }
 
-@media (max-width: 940px) {
+@media (max-width: 1000px) {
   .footer {
     flex-direction: column;
     justify-content: start;
@@ -6788,8 +6788,6 @@ img {
 .tech-box a h2 {
   background-color: inherit;
   color: #130D24;
-  position: relative;
-  top: 20%;
   letter-spacing: 2px;
 }
 
