@@ -72,3 +72,25 @@
     grid-column: 2 / span 2;
     grid-row: 5 / 6;
 }
+
+@media only screen and (max-width: 940px) {
+    /* For mobile phones: */
+    .tech-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 1fr);
+    }
+
+    .tech-container h1,
+    .css-box,
+    .html-box,
+    .js-box,
+    .php-box,
+    .python-box,
+    .git-box,
+    .sqlite-box {
+        grid-column: 1;
+    }
+    .tech-container h1 {
+        grid-row: 1;
+    }
+}
