@@ -6778,6 +6778,7 @@ img {
 }
 
 .tech-box a {
+  padding: 0.4em;
   text-decoration: none;
   display: block;
   height: 100%;
@@ -6788,7 +6789,7 @@ img {
   background-color: inherit;
   color: #130D24;
   position: relative;
-  top: 25%;
+  top: 20%;
   letter-spacing: 2px;
 }
 
@@ -6846,10 +6847,31 @@ img {
   .python-box,
   .git-box,
   .sqlite-box {
-    grid-column: 1;
+    grid-column: 1/2;
   }
   .tech-container h1 {
     grid-row: 1;
+  }
+  .css-box {
+    grid-row: 2;
+  }
+  .html-box {
+    grid-row: 3;
+  }
+  .js-box {
+    grid-row: 4;
+  }
+  .php-box {
+    grid-row: 5;
+  }
+  .python-box {
+    grid-row: 6;
+  }
+  .git-box {
+    grid-row: 7;
+  }
+  .sqlite-box {
+    grid-row: 8;
   }
 }
 .tech-2cols-layout {
