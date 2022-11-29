@@ -6942,16 +6942,16 @@ img {
   grid-column: span 3;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 940px) {
   /* For mobile phones: */
   .landingpage {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   .landingpage h1 {
-    grid-column: span 2;
+    grid-column: 1;
   }
   .kmom-box.project {
-    grid-column: span 2;
+    grid-column: 1;
   }
 }
 .analysis {
