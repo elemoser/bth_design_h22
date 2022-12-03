@@ -5,6 +5,18 @@ Description: This is our test page.
 
 Test page
 ==========================
+
+<!-- ![Picture of runners](image/movement.png?w=400)
+![Picture of runners](image/movement.jpg?w=400)
+![Picture of runners](image/movement.png?w=400&save-as=jpg)
+![Picture of runners](image/movement.jpg?w=400&q=50) -->
+
+<!-- ![Picture of runners with red filter](image/movement.jpg?w=400&&f=colorize,100,0,0,0)
+
+![Picture of runners with inverted colors](image/movement.jpg?w=400&f=negate)
+
+![Picture of runners with a painting filter](image/movement.jpg?w=400&convolve=draw) -->
+
 <div class="test">
 <p class="old-fashioned">
 Hör nu på, govänner, så ska jag för er berätta vad en gosse gjorde, det är nu längesen, men nog lever minnet kvar i Smålands sköna dalar, Katthult Lönneberga, det var den gossens hem. Hujedamej, sånt barn han var, Ej värre tänkas kan, Och Emil var det namn han bar, Ja, Emil hette han.

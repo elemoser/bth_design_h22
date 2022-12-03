@@ -18,4 +18,10 @@ Jag har lite erfarenhet av programmering sedan tidigare. Några år sedan, lärd
 
 I år bestämde jag mig att byta min karriär och bli programmerare. Jag tycker att skapa webbplatser från grunden och att jobba med frontend är superspännande, kreativt och resultaten väldigt meriterande. Jag är mycket glad över möjligheten att plugga webbprogrammering och ivrigt att lära mig mer!
 
-![Profile Picture](%assets_url%/img/em_small.jpeg){.img-profile}
+![Profile Picture](image/em_small.jpeg){.img-profile}
+
+<!-- <picture>
+    <source media="(min-width: 900px)" srcset="image/flamingo.png">
+    <source media="(min-width: 400px)" srcset="image/flamingo.png?height=300">
+    <img src="image/flamingo.png?h=200" alt="flamingo">
+</picture> -->
