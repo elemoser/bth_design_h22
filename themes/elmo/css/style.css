@@ -7038,7 +7038,7 @@ img {
 }
 .gallery-container {
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 120px 1fr 1fr;
@@ -7074,6 +7074,25 @@ img {
   text-decoration: none;
   border: none;
   filter: opacity(50%);
+}
+
+.embed-container {
+  margin: 2em auto;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 1000px;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 @media only screen and (max-width: 940px) {
