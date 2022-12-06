@@ -20,30 +20,22 @@ Observera att förkortningarna inom parentesen används för att referera till w
     - https://www.greenpeace.org/sweden/agera/ (GP_2)
     - https://www.greenpeace.org/sweden/tag/havsreservat/ (GP_3)
 
-<figure>
-<figcaption>Greenpeace hemsida</figcaption>
-<img class="img-website" alt="Greenpeace Landing Page Fold" src="/dbwebb/design/me/portfolio/image/greenpeace.png?w=700&save-as=jpg">
-</figure>
+![Greenpeace Landing Page Fold](%base_url%/image/greenpeace.png?w=700&save-as=jpg){.img-website}
 
 - WWF
     - https://www.wwf.se/ (WWF_1)
     - https://www.wwf.se/engagera-dig/ (WWF_2)
     - https://www.wwf.se/hav-och-fiske/hjalp-haven/ (WWF_3)
 
-<figure>
-<figcaption>WWF hemsida</figcaption>
-<img class="img-website" alt="WWF Landing Page Fold" src="/dbwebb/design/me/portfolio/image/wwf.png?w=700&save-as=jpg">
-</figure>
+
+![WWF Landing Page Fold](%base_url%/image/wwf.png?w=700&save-as=jpg){.img-website}
 
 - Naturskyddsföreningen
     - https://www.naturskyddsforeningen.se/ (NSF_1)
     - https://www.naturskyddsforeningen.se/engagera-dig/ (NSF_2)
     - https://www.naturskyddsforeningen.se/lar-dig-mer/hav-och-vatten/ (NSF_3)
 
-<figure>
-<figcaption>Naturskyddsföreningens hemsida</figcaption>
-<img class="img-website" alt="Naturskyddsföreningen Landing Page Fold" src="/dbwebb/design/me/portfolio/image/naturskyddsforeningen.png?w=700&save-as=jpg">
-</figure>
+![Naturskyddsföreningen Landing Page Fold](%base_url%/image/naturskyddsforeningen.png?w=700&save-as=jpg){.img-website}
 
 När jag bläddrade igenom dessa webbsidor märkte jag att vissa laddades snabbare än andra.
 Särskilt bilder verkar ta längre tid att ladda än resten av sidan.
