@@ -6681,6 +6681,14 @@ pre code {
   border-bottom: 1px solid #942630;
 }
 
+figure {
+  text-align: center;
+}
+
+figcaption {
+  font-size: 0.8rem;
+}
+
 img {
   max-width: 100%;
 }
@@ -7009,15 +7017,6 @@ img {
 .color-box {
   height: 50px;
   width: 50px;
-}
-
-.load-data {
-  display: block;
-  margin: 20px auto;
-  padding: 1rem;
-  border: 1px solid #2C1B53;
-  height: 300px;
-  width: 70%;
 }
 
 @media only screen and (max-width: 940px) {

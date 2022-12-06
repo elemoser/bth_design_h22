@@ -9,6 +9,14 @@
     }
 }
 
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-size: 0.8rem;
+}
+
 img {
     max-width: 100%;
 }
@@ -23,7 +31,6 @@ img {
     @include image-center;
     max-width: 90%;
 }
-
 
 @media (max-width: 428px) {
     .img-profile {
