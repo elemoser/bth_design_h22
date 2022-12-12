@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "stylelint \"**/*.scss\"",
+    "lint": "stylelint **/*.scss",
     "watch": "sass elmo/scss/style.scss:elmo/css/style.css elmo/scss/style-dark.scss:elmo/css/style-dark.css --no-source-map --watch",
     "watch-min": "sass elmo/scss/style.scss:elmo/css/style.min.css elmo/scss/style-dark.scss:elmo/css/style-dark.min.css --no-source-map --watch --style compressed",
     "style": "npm run style-light && npm run style-dark",
