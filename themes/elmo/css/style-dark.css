@@ -6546,7 +6546,7 @@ body {
 }
 
 .nav li:last-child a {
-  color: #942630;
+  color: #75AC62;
 }
 
 .nav li:last-child a:hover {
@@ -6614,7 +6614,7 @@ p, td, th, li, dd {
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.6em;
-  color: #942630;
+  color: #75AC62;
 }
 
 h1, h2, h3, h4, h5, h6, th {
@@ -6675,11 +6675,11 @@ pre code {
 }
 
 .main a {
-  color: #942630;
+  color: #75AC62;
   text-decoration: none;
 }
 .main a:hover {
-  border-bottom: 1px solid #942630;
+  border-bottom: 1px solid #75AC62;
 }
 
 figure {
@@ -6796,7 +6796,7 @@ img {
   display: block;
   height: 100%;
   border-radius: 20px;
-  background: #942630;
+  background: #75AC62;
 }
 .tech-box a h2 {
   background-color: inherit;
@@ -7000,7 +7000,7 @@ img {
   display: block;
   height: 100%;
   border-radius: 20px;
-  background: #942630;
+  background: #75AC62;
 }
 .analysis div a h2 {
   background-color: inherit;
