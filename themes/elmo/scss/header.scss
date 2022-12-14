@@ -63,4 +63,5 @@
 .nav a:hover {
     background-color: $background-alternative-color;
     border-radius: 50% 50%;
+    transition: 500ms linear;
 }
