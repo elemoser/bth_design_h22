@@ -8,43 +8,43 @@ Teknologier
 ==========================
 
 <div class="tech-box css-box">
-    <a href="technology/css">
+    <a class="box-shadow" href="technology/css">
     <h2>CSS</h2>
     </a>
 </div>
 
 <div class="tech-box html-box">
-    <a href="technology/html">
+    <a class="box-shadow" href="technology/html">
     <h2>HTML</h2>
     </a>
 </div>
 
 <div class="tech-box js-box">
-    <a href="technology/javascript">
+    <a class="box-shadow" href="technology/javascript">
     <h2>JavaScript</h2>
     </a>
 </div>
 
 <div class="tech-box php-box">
-    <a href="technology/php">
+    <a class="box-shadow" href="technology/php">
     <h2>PHP</h2>
     </a>
 </div>
 
 <div class="tech-box python-box">
-    <a href="technology/python">
+    <a class="box-shadow" href="technology/python">
     <h2>Python</h2>
     </a>
 </div>
 
 <div class="tech-box git-box">
-    <a href="technology/git">
+    <a class="box-shadow" href="technology/git">
     <h2>Git</h2>
     </a>
 </div>
 
 <div class="tech-box sqlite-box">
-    <a href="technology/sqlite">
+    <a class="box-shadow" href="technology/sqlite">
     <h2>SQLite</h2>
     </a>
 </div>
